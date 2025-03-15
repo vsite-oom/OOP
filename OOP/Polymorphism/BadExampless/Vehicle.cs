@@ -1,4 +1,4 @@
-﻿namespace OOP.Inheritance.BadExample;
+﻿namespace OOP.Polymorphism.GoodExample;
 public class Vehicle
 {
     public string Brand { get; set; }
@@ -12,9 +12,9 @@ public class Vehicle
         Year = year;
     }
 
-    public void Start() => Console.WriteLine("Vehicle started...");
+    public virtual void Start() => Console.WriteLine("Vehicle started...");
 
-    public void Stop() => Console.WriteLine("Vehicle stopped...");
+    public virtual void Stop() => Console.WriteLine("Vehicle stopped...");
 
-    public void Drive() => Console.WriteLine("Vehicle is driving...");
+    public virtual void Drive() => Console.WriteLine("Vehicle is driving...");
 }
