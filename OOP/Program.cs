@@ -1,4 +1,5 @@
 ﻿using OOP.Abstraction;
+using OOP.Composition;
 using OOP.Encapsulation;
 
 
@@ -20,4 +21,7 @@ using OOP.Encapsulation;
 
 // Coupling
 //OOP.Coupling.BadExample.BadProgram.Main();
-OOP.Coupling.GoodExample.GoodProgram.Main();
+//OOP.Coupling.GoodExample.GoodProgram.Main();
+
+// Composition
+CarExample.Main();
