@@ -1,7 +1,7 @@
 ﻿using OOP.Abstraction;
+using OOP.Composition;
 using OOP.Encapsulation;
-using OOP.Inheritance.BadExample;
-using OOP.Inheritance.GoodExample;
+
 
 // Encapsulation
 //BadBankAccountServiceExample.Main();
@@ -12,5 +12,16 @@ using OOP.Inheritance.GoodExample;
 //EmailServiceExample.Main();
 
 // Inheritance
-//BadProgram.Main();
-GoodProgram.Main();
+//OOP.Inheritance.BadExample.BadProgram.Main();
+//OOP.Inheritance.GoodExample.GoodProgram.Main();
+
+// Polymorphism
+//OOP.Polymorphism.BadExample.BadProgram.Main();
+//OOP.Polymorphism.GoodExample.GoodProgram.Main();
+
+// Coupling
+//OOP.Coupling.BadExample.BadProgram.Main();
+//OOP.Coupling.GoodExample.GoodProgram.Main();
+
+// Composition
+CarExample.Main();
