@@ -1,6 +1,5 @@
 ﻿namespace OOP.Inheritance.BadExample;
-
-class Car
+public class Car
 {
     public string Brand { get; set; }
     public string Model { get; set; }
@@ -13,18 +12,9 @@ class Car
         Year = year;
     }
 
-    public void Start()
-    {
-        Console.WriteLine("Car started");
-    }
+    public void Start() => Console.WriteLine("Car started...");
 
-    public void Stop()
-    {
-        Console.WriteLine("Car stopped");
-    }
+    public void Stop() => Console.WriteLine("Car stopped...");
 
-    public void Drive()
-    {
-        Console.WriteLine("Car is driving");
-    }
+    public void Drive() => Console.WriteLine("Car is driving...");
 }

@@ -1,4 +1,4 @@
-﻿namespace OOP.Inheritance.BadExample;
+﻿namespace OOP.Inheritance.GoodExample;
 public class Vehicle
 {
     public string Brand { get; set; }
