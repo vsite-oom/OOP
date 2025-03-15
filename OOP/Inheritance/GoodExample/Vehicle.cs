@@ -1,20 +1,28 @@
-﻿namespace OOP.Inheritance.BadExample;
-public class Vehicle
+﻿namespace OOP.Polymorphism.BadExample;
+public class BadProgram
 {
-    public string Brand { get; set; }
-    public string Model { get; set; }
-    public int Year { get; set; }
-
-    public Vehicle(string brand, string model, int year)
+    public static void Main()
     {
-        Brand = brand;
-        Model = model;
-        Year = year;
+        try
+        {
+            Car car = new("Toyota", "Corolla", 2021);
+            car.NumberOfDoors = 4;
+            car.Start();
+            car.Drive();
+            car.Stop();
+            Bike bike = new("Yamaha", "YZF-R1", 2021);
+            bike.Start();
+            bike.Drive();
+            bike.Wheelie();
+            bike.Stop();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        finally
+        {
+            Console.WriteLine("Program completed.");
+        }
     }
-
-    public void Start() => Console.WriteLine("Vehicle started...");
-
-    public void Stop() => Console.WriteLine("Vehicle stopped...");
-
-    public void Drive() => Console.WriteLine("Vehicle is driving...");
 }

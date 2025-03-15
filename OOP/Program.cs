@@ -1,4 +1,5 @@
 ﻿using OOP.Abstraction;
+using OOP.Composition;
 using OOP.Encapsulation;
 
 
@@ -17,3 +18,10 @@ using OOP.Encapsulation;
 // Polymorphism
 //OOP.Polymorphism.BadExample.BadProgram.Main();
 //OOP.Polymorphism.GoodExample.GoodProgram.Main();
+
+// Coupling
+//OOP.Coupling.BadExample.BadProgram.Main();
+//OOP.Coupling.GoodExample.GoodProgram.Main();
+
+// Composition
+CarExample.Main();
