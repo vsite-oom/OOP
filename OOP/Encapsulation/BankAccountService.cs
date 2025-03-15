@@ -45,13 +45,13 @@ public static class BankAccountServiceExample
         try
         {
             var bankAccount = new BankAccountService(1000);
-            Console.WriteLine(bankAccount.GetBalance);
+            Console.WriteLine(bankAccount.GetBalance());
 
             bankAccount.Deposit(1000);
-            Console.WriteLine(bankAccount.GetBalance);
+            Console.WriteLine(bankAccount.GetBalance());
 
             bankAccount.Withdraw(500);
-            Console.WriteLine(bankAccount.GetBalance);
+            Console.WriteLine(bankAccount.GetBalance());
         }
         catch (Exception ex)
         {
