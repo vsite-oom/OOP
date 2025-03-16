@@ -1,4 +1,6 @@
 ﻿using OOP.Encapsulation;
+using OOP.Abstraction;
+using OOP.Composition;
  
 //BadBankAccountServiceExample.Main();
 //BankAccountServiceExample.Main();
@@ -11,3 +13,6 @@
 
 //OOP.Polymorphism.BadExample.BadProgram.Main();
 //OOP.Polymorphism.GoodExample.GoodProgram.Main();
+
+//OOP.Coupling.BadExample.BadProgram.Main();
+//OOP.Coupling.GoodExample.GoodProgram.Main();
