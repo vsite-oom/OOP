@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP.Abstraction
 {
-    class BadEmailService
+    public class BadEmailService
     {
         public void SendEmail() => Console.WriteLine("Sending email...");
         public void Connect() => Console.WriteLine("Connecting...");
@@ -20,7 +20,19 @@ namespace OOP.Abstraction
         {
             try
             {
-                var emailService = new 
+                var emailService = new EmailService();
+                emailService.Connect();
+                emailService.Disconnect();
+                emailService.Authenticate();
+                emailService.SendEmail();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Program Completed.");
             }
         }
     }
