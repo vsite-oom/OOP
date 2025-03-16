@@ -4,4 +4,7 @@
 //BankAccountServiceExample.Main();
 
 //BadEmailServiceExample.Main();
-EmailServiceExample.Main();
+//EmailServiceExample.Main();
+
+//OOP.Inheritance.BadExample.BadProgram.Main();
+//OOP.Inheritance.GoodExample.GoodProgram.Main();
