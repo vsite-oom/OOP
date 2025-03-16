@@ -1,6 +1,10 @@
 ﻿namespace OOP.Composition
 {
-    internal class Chassis
+    public class Chassis
     {
+        public void Support()
+        {
+            Console.WriteLine("Chassis supports the car");      
+        }
     }
 }

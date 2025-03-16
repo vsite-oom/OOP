@@ -18,3 +18,5 @@ OOP.Polymorphism.GoodExample.GoodProgram.Main();
 
 OOP.Coupling.BadExample.BadProgram.Main();
 OOP.Coupling.GoodExample.GoodProgram.Main();
+
+OOP.Composition.CarExample.Main();

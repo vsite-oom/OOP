@@ -1,6 +1,10 @@
 ﻿namespace OOP.Composition
 {
-    internal class Wheels
+    public class Wheels
     {
+        public void Rotate()
+        {
+            Console.WriteLine("Wheels are rotating");
+        }
     }
 }
