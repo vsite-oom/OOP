@@ -16,3 +16,5 @@ using OOP.Composition;
 
 //OOP.Coupling.BadExample.BadProgram.Main();
 //OOP.Coupling.GoodExample.GoodProgram.Main();
+
+CarExample.Main();
