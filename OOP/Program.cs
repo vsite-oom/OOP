@@ -11,5 +11,7 @@ BadEmailServiceExample.Main();
 EmailServiceExample.Main();
 
 BadProgram.Main();
-
 GoodProgram.Main();
+
+OOP.Polymorphism.BadExample.BadProgram.Main();
+OOP.Polymorphism.GoodExample.GoodProgram.Main();
