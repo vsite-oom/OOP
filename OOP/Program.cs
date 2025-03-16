@@ -10,8 +10,11 @@ BankAccountServiceExample.Main();
 BadEmailServiceExample.Main();
 EmailServiceExample.Main();
 
-BadProgram.Main();
+OOP.Inheritance.BadExample.BadProgram.Main();
 GoodProgram.Main();
 
 OOP.Polymorphism.BadExample.BadProgram.Main();
 OOP.Polymorphism.GoodExample.GoodProgram.Main();
+
+OOP.Coupling.BadExample.BadProgram.Main();
+OOP.Coupling.GoodExample.GoodProgram.Main();
