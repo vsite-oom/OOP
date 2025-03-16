@@ -1,4 +1,7 @@
 ﻿using OOP.Encapsulation;
  
 //BadBankAccountServiceExample.Main();
-BankAccountServiceExample.Main();
+//BankAccountServiceExample.Main();
+
+//BadEmailServiceExample.Main();
+EmailServiceExample.Main();
