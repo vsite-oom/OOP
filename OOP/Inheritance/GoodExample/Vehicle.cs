@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.Inheritance.BadExample
+namespace OOP.Inheritance.GoodExample
 {
-    public class Bike
+    public class Vehicle
     {
         public string Brand { get; set; }
         public string Model { get; set; }
         public int Year { get; set; }
 
-        public Bike(string brand, string model, int year)
+        public Vehicle(string brand, string model, int year)
         {
             Brand = brand;
             Model = model;
@@ -21,18 +21,17 @@ namespace OOP.Inheritance.BadExample
 
         public void Start()
         {
-            Console.WriteLine("Bike started");
+            Console.WriteLine("Vehicle started");
         }
 
         public void Stop()
         {
-            Console.WriteLine("Bike stopped");
+            Console.WriteLine("Vehicle stopped");
         }
 
         public void Drive()
         {
-            Console.WriteLine("Bike is driving");
+            Console.WriteLine("Vehicle is driving");
         }
     }
 }
-
