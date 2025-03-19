@@ -3,6 +3,7 @@ using OOP.Encapsulation;
 using OOP.Inheritance;
 using OOP.Inheritance.BadExample;
 using OOP.Inheritance.GoodExample;
+using OOP.Composition; 
 using static OOP.Encapsulation.BankAccountService;
 
 
@@ -24,4 +25,7 @@ using static OOP.Encapsulation.BankAccountService;
 
 // Coupling
 //OOP.Coupling.BadExample.BadProgram.Main();
-OOP.Coupling.GoodExample.GoodProgram.Main();
+//OOP.Coupling.GoodExample.GoodProgram.Main();
+
+// Composition
+CarExample.Main();
