@@ -15,5 +15,9 @@ using static OOP.Encapsulation.BankAccountService;
 //BadEmailServiceExample.Main();
 
 // Inheritance
-//BadProgram.Main();
-GoodProgram.Main();
+//OOP.Inheritance.BadExample.BadProgram.Main();
+//OOP.Inheritance.GoodExample.GoodProgram.Main();
+
+// Polymorphism
+//OOP.Polymorphism.BadExample.BadProgram.Main();
+OOP.Polymorphism.GoodExample.GoodProgram.Main();
