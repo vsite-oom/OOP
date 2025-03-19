@@ -20,4 +20,8 @@ using static OOP.Encapsulation.BankAccountService;
 
 // Polymorphism
 //OOP.Polymorphism.BadExample.BadProgram.Main();
-OOP.Polymorphism.GoodExample.GoodProgram.Main();
+//OOP.Polymorphism.GoodExample.GoodProgram.Main();
+
+// Coupling
+//OOP.Coupling.BadExample.BadProgram.Main();
+OOP.Coupling.GoodExample.GoodProgram.Main();
