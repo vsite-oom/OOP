@@ -1,5 +1,8 @@
 ﻿using OOP.Abstraction;
 using OOP.Encapsulation;
+using OOP.Inheritance;
+using OOP.Inheritance.BadExample;
+using OOP.Inheritance.GoodExample;
 using static OOP.Encapsulation.BankAccountService;
 
 
@@ -10,3 +13,7 @@ using static OOP.Encapsulation.BankAccountService;
 // Abstraction
 //EmailServiceExample.Main();
 //BadEmailServiceExample.Main();
+
+// Inheritance
+//BadProgram.Main();
+GoodProgram.Main();
