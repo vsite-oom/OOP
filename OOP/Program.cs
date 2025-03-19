@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using OOP.Encapsulation;
+using static OOP.Encapsulation.BankAccountService;
+
+//BadBakAccountServiceExample.Main();
+BankAccountServiceExample.Main();
