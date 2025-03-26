@@ -12,7 +12,7 @@ public class BadBankAccountService
 
 }
 
-public static class BadAccountSericeExample
+public static class BadAccountServiceExample
 {
     public static void Main()
     {
