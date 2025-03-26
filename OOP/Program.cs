@@ -18,10 +18,12 @@ using OOP.Encapsulation;
 // Polymorphism
 //OOP.Polymorphism.BadExample.BadProgram.Main();
 //OOP.Polymorphism.GoodExample.GoodProgram.Main();
+OOP.Polymorphism.MethodOverloading.Main();
+OOP.Polymorphism.OperatorOverloading.Main();
 
 // Coupling
 //OOP.Coupling.BadExample.BadProgram.Main();
 //OOP.Coupling.GoodExample.GoodProgram.Main();
 
 // Composition
-CarExample.Main();
+//CarExample.Main();
