@@ -24,4 +24,7 @@ using OOP.Encapsulation;
 //OOP.Coupling.GoodExample.GoodProgram.Main();
 
 // Composition 
-CarExample.Main();
+//CarExample.Main();
+
+OOP.Polymorphism.MethodOverloading.Main();
+OOP.Polymorphism.OperatorOverloading.Main();

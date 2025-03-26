@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.Polymorphism.BadExampless
+namespace OOP.Polymorphism.GoodExample
 {
     internal class Bike
     {
