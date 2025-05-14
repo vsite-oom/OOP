@@ -1,28 +1,20 @@
 ﻿namespace OOP.Polymorphism.GoodExample;
-public class GoodProgram
+public class Vehicle
 {
-    public static void Main()
+    public string Brand { get; set; }
+    public string Model { get; set; }
+    public int Year { get; set; }
+
+    public Vehicle(string brand, string model, int year)
     {
-        try
-        {
-            Car car = new("Toyota", "Corolla", 2021);
-            car.NumberOfDoors = 4;
-            car.Start();
-            car.Drive();
-            car.Stop();
-            Bike bike = new("Yamaha", "YZF-R1", 2021);
-            bike.Start();
-            bike.Drive();
-            bike.Wheelie();
-            bike.Stop();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        finally
-        {
-            Console.WriteLine("Program completed.");
-        }
+        Brand = brand;
+        Model = model;
+        Year = year;
     }
+
+    public virtual void Start() => Console.WriteLine("Vehicle started...");
+
+    public virtual void Stop() => Console.WriteLine("Vehicle stopped...");
+
+    public virtual void Drive() => Console.WriteLine("Vehicle is driving...");
 }
